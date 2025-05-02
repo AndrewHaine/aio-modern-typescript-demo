@@ -1,0 +1,10 @@
+{
+  "name": "modern-typescript-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew Haine <andrew@andrewhaine.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
