@@ -1,7 +1,7 @@
 enum Department {
-  Engineering,
-  Sales,
-  Marketing,
+  Engineering = "engineering",
+  Sales = "sales",
+  Marketing = "marketing",
 }
 
 interface TeamMember {
@@ -21,3 +21,4 @@ const jimbo: TeamMember = {
 };
 
 printIntro(jimbo);
+console.log(Department);

@@ -9,3 +9,5 @@ const LOG_LEVEL = {
 type LogLevel = ObjectValues<typeof LOG_LEVEL>;
 
 const CURRENT_LOG_LEVEL: LogLevel = LOG_LEVEL.DEBUG;
+
+console.log(`The current log level is ${CURRENT_LOG_LEVEL}`);
